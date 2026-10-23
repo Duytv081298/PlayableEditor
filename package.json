@@ -1,0 +1,14 @@
+{
+  "name": "tool-edit-playable",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Playable Editor - Chỉnh sửa hình ảnh, âm thanh, 3D model, link store và chuyển đổi Playable HTML sang 22 Ad Networks",
+  "scripts": {
+    "install:editor": "npm --prefix playable-editor install",
+    "dev": "npm --prefix playable-editor run dev",
+    "build": "npm --prefix playable-editor run build:single",
+    "build:single": "npm --prefix playable-editor run build:single",
+    "build:web": "npm --prefix playable-editor run build",
+    "test": "npm --prefix playable-editor test"
+  }
+}
